@@ -6,7 +6,7 @@ function sleep(ms) {
 
 async function main() {
   while(true) {
-    console.log(`${thatRocks} rock!`);
+    console.log(`${thatRocks} rocks!`);
     await sleep(5000);
   }
 }
