@@ -1,10 +1,8 @@
 # Use NodeJS base image
 FROM node:13
 
-# FROM effzeh
-ARG THAT_ROCKS="Default_Value"
+ARG THAT_ROCKS
 ENV THAT_ROCKS=$THAT_ROCKS
-# RUN echo "ARGS is ${THAT_ROCKS}"
 
 # Create app directory
 WORKDIR /usr/src/app
