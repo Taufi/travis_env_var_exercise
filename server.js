@@ -1,4 +1,4 @@
-const thatRocks = process.env.T_REX;
+const T_REX = process.env.THAT_ROCKS;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -6,7 +6,7 @@ function sleep(ms) {
 
 async function main() {
   while(true) {
-    console.log(`${thatRocks} rocks!`);
+    console.log(`${T_REX} rocks!`);
     // console.log("FC rocks!");
     await sleep(5000);
   }

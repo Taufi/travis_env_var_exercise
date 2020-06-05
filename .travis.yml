@@ -15,8 +15,6 @@ before_script:
 
 script:
   - docker --version # print the version for logging
-  - echo "KD---------->"
-  - echo ${THAT_ROCKS}
   - docker build -t travis_env_var_exercise --build-arg THAT_ROCKS=${THAT_ROCKS} .
   - docker tag travis_env_var_exercise taufi/travis_env_var_exercise:latest
 
