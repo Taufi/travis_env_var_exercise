@@ -3,6 +3,7 @@ FROM node:13
 
 # FROM effzeh
 ARG THAT_ROCKS="Default_Value"
+ENV THAT_ROCKS=$THAT_ROCKS
 # RUN echo "ARGS is ${THAT_ROCKS}"
 
 # Create app directory
