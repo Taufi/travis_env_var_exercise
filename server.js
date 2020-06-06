@@ -6,7 +6,7 @@ function sleep(ms) {
 
 async function main() {
   while(true) {
-    console.log(`${T_REX} rocks!`);
+    console.log(`${T_REX} rockt richtig!`);
     // console.log("FC rocks!");
     await sleep(5000);
   }
